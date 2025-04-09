@@ -320,6 +320,7 @@ public class Atlas_Edit_Line {
 			clickElementByXpath("//button[text()='Delete']", "Delete button");
 			clickElementByXpath("//a[@title='Save']", "save");
 			System.out.println("Line region deleted successfully");
+			clickElementByXpath("//a[@title='Close']]", "Close");
 		}
 		
 		
