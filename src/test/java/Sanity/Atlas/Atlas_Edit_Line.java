@@ -25,7 +25,7 @@ public class Atlas_Edit_Line {
 		{
 			
 			  DesiredCapabilities dc = DesiredCapabilities.chrome();
-		        URL url = new URL("http://172.20.23.92:4443/wd/hub");
+		        URL url = new URL("http://172.20.23.92:4444/wd/hub");
 		        driver = new RemoteWebDriver(url, dc);
 		
 		       
@@ -232,7 +232,7 @@ public class Atlas_Edit_Line {
 			
 			 
 			 try {
-		  		    WebElement contributor= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[@type='radio'])[2]")));
+		  		    WebElement contributor= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[@type='radio'])[3]")));
 		  		    contributor.click();
 		  		    System.out.println("contributor selected successfully.");
 		  		    Thread.sleep(2000);
